@@ -22,16 +22,16 @@ const Highlights = () => {
       className="w-screen h-full common-padding overflow-hidden bg-zinc"
     >
       <div>
-        <div className="mb-12 w-full flex items-end justify-between">
+        <div className="mb-12 w-full flex items-center justify-between">
           <h1 id="title" className="section-heading">
             Get the highlights
           </h1>
-          <div className="flex flex-wrap items-end gap-5">
-            <p className="link">
+          <div className="flex flex-wrap items-center gap-5 sm:flex-col md:flex-row">
+            <p className="link text-normal sm:text-lg md:text-xl">
               Watch the film
               <img src={watchImg} alt="watch" className="ml-2" />
             </p>
-            <p className="link">
+            <p className="link  text-normal sm:text-lg md:text-xl">
               Watch the event
               <img src={rightImg} alt="watch" className="ml-2" />
             </p>
