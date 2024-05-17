@@ -32,11 +32,11 @@ const Footer = () => {
             {footerLinks.map((link, index) => (
               <p
                 key={link}
-                className="font-semibold text-gray text-xs cursor-pointer"
+                className="font-semibold text-gray sm:text-xs cursor-pointer text-[10px]"
               >
                 {link}{" "}
                 {index !== footerLinks.length - 1 && (
-                  <span className="mx-2">|</span>
+                  <span className="md:mx-2 mx-2">|</span>
                 )}
               </p>
             ))}
