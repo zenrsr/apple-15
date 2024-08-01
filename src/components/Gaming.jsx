@@ -46,7 +46,7 @@ const Gaming = () => {
               <img
                 src={frameImg}
                 alt="frame"
-                className="bg-transparent relative z-10"
+                className="bg-transparent relative z-[1]"
               />
             </div>
             <div className="hiw-video">
@@ -55,7 +55,7 @@ const Gaming = () => {
                 preload="none"
                 muted
                 autoPlay
-                className="pointer-events-none"
+                className="pointer-events-none z-[-10]"
                 ref={videoRef}
               >
                 <source src={frameVideo} type="video/mp4" />
